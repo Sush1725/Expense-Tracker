@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: rgb(36, 36, 66);
+    color:#d0d2b5;
+}
+.container h1{
+    color: rgb(220, 224, 236);
+}
+
+.container, #expenseForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#expenseForm {
+    margin-top: 15px;
+    font-weight: 600;
+    color: rgb(192, 178, 178);
+}
+
+label,
+input {
+    display: block;
+    margin-bottom: 8px;
+    outline: none;
+    border: none;
+    padding:10px 15px;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding:5px 15px;
+    border-radius: 10px;
+    border:none;
+    background-color: #95D2B3;
+    cursor: pointer;
+    font-weight: 600;
+}
+button:hover{
+    box-shadow: 0 0 5px rgb(154, 141, 141);
+}
+hr{
+    margin: 25px 0 35px;
+    
+}
+.box{
+    width: 80%;
+    margin-inline: auto;
+    margin-top: 30px;
+}
+.box,h2{
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 2px solid black;
+    margin-inline: auto;
+   
+}
+
+table,
+th,
+td {
+    border: 1px solid rgb(178, 163, 163);
+    
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
